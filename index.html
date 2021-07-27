@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <title>Investment Stimulator</title>
+    <script src='https://d3js.org/d3.v4.min.js'></script>
+    <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
+</head>
+
+<body>
+    <h1>Investment Stimulator</h1>
+    <p id = "initial">Initial Amount: $ 
+        <input type="number" id="initialAmount" value=100 min = 1>
+    </p>
+    <p id = "start">Start Year: 
+        <input type="number" id="startYear" value=1971 min=1971 max= 2020>
+    </p>
+    <p id = "end">End Year: 
+        <input type="number" id="endYear" value=2021 min=1972 max= 2021>
+    </p>
+    <button id = "startDemo" onclick="startCallBack()">Start Demo</button>
+    <p id = "total"></p>
+    <P id = "range"></P>
+    <script src = './main.js'> </script>
+</body>
+
+</html>
